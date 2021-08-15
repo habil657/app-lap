@@ -1,0 +1,754 @@
+*{
+    margin:0;
+    padding:0;
+    border-box:
+
+}
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+</style>
+
+body,h1,h2,h3,h4,h5,h6,a,p,span,button,input,textarea{
+       font-family: 'Poppins', sans-serif !important;
+}
+
+ body{
+    font-family: 'Poppins', sans-serif; 
+} 
+a,a:hover{
+     text-decoration: none !important ;
+     cursor: pointer;
+}
+
+
+ ul li{
+      padding: 0;
+      margin: 0;
+
+}
+
+
+/**** header css start here ****/
+
+header{
+      width: 100%;
+      padding: 40px 0;
+}
+
+
+.btn-outline-success{
+      padding: 5px 8px;
+      background: blue !important;
+      color: white;
+      border: none;
+      border-radius: 30px;
+      margin-left: 30px !important;
+     
+
+}
+
+.btn-outline-success:hover{
+      color: #FF3D68 !important;
+      background: #FFD523 !important;
+}
+
+.nav-item{
+     margin-left: 20px;
+}
+
+
+.nav-link{
+      color: #242f51 !important;
+
+}
+
+.nav-link:hover{
+      color: #FF3D68 !important;
+}
+
+/**** header css end here ****/
+
+
+/**** baner css start here ***/
+
+.baner{
+      width: 100%;
+      height: 100vh;
+      background: url(../img/baner0.jpg);
+     /* background: skyblue;*/
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+}
+
+.baner-text{
+      height: 100vh;
+      display: table-cell;
+      vertical-align: middle;
+}
+
+.baner-text.subtile{
+      background: #e2eaed !important;
+     /* background: #919295 !important;*/
+      display: inline;
+      padding: 6px;
+      border-radius: 12px;
+}
+
+.baner-text h1{
+      color: #242f51;
+      font-size: 50px;
+      font-weight: 600;
+}
+
+.baner-text p{
+      color: #919295;
+      margin-right: 35px;
+      font-weight: 600;
+
+}
+
+.btn-outline-success{
+     
+      margin-right: 20px;
+}
+
+.b-btn{
+       border: none;
+       color: #2500f9;
+       background: none;
+       margin-left: 0px;
+}
+
+.b-btn:hover{
+       color: #FF3F00;
+
+}
+
+.subtile .fa{
+      height: 20px;
+      width: 20px;
+       color: white;
+      background: #feaa25;
+      display: inline-block;
+      line-height: 20px;
+      border-radius: 35px;
+      text-align: center;
+}
+
+.subtile .icon-text{
+      background: #feaa25;
+      padding: 3px;
+      font-size: 20px;
+      border-radius: 50%;
+}
+
+/**** baner css end here ***/
+
+
+/*clints logo start here*/
+
+
+.claints-logo{
+       width: 100%;
+       padding: 60px 0px;
+       text-align: center;
+}
+
+.logos p{
+      color: #242f51;
+      font-weight: 600;
+}
+
+.owl-carousel .owl-item img {
+    display: inline-block !important;
+    width: auto !important;
+    cursor: pointer;
+}
+
+.owl-carousel .owl-item img:hover{
+      background: #71EFA3;
+
+
+}
+
+.owl-theme .owl-nav{
+       display: none;
+}
+
+.owl-theme .owl-dots{
+      display: none;
+}
+
+/*clints logo end here*/
+
+
+ /*feauture app css start here*/ 
+
+.feauture-app{
+      width: 100%;
+      padding: 60px 0px;
+}
+
+.img-fluid{
+      margin-left: 0px;
+}
+
+.feauture-text h2{
+      color: #242f51;
+      font-size: 40px;
+      width: 600;
+     
+}
+
+.feauture-text{
+      margin-right: 70px;
+}
+
+.feauture-text p{
+      color: #929396;
+      font-size: 14px !important;
+      font-weight: 600;
+}
+
+.sub-text-1 h5{
+      color: #f55767;
+
+}
+
+.sub-text-2 h5{
+      color: #2563ff;
+}
+
+
+.sub-text-3 h5{
+      color: #40975f;
+}
+
+.t-text{
+       color: #929396;
+       font-size: 14px !important;
+       padding-right: 50px;
+       margin-right: 50px;
+      font-weight: 600;
+
+}
+
+ /*feauture app css end here*/ 
+
+ /*smart jacpot css start here*/
+
+
+.smart-jacpot{
+      width: 100%;
+      padding: 10px 0px;
+}
+
+.left h2{
+      color: #242f51;
+      font-size: 30px !important;
+      font-weight: 600;
+
+      margin-left: 70px;
+}
+
+.line{
+
+     height: 100px;
+     width: 1px;
+     background: #929396;
+     text-align: center important;
+     margin-left: 50px;
+
+}
+
+.right p{
+      color: #929396;
+      font-size: 14px !important;
+     /* border-left: 40px 4px #929396;*/
+      font-weight: 600;
+      margin-right: 20px;
+
+}
+
+/*smart jacpot css end here*/
+
+/*sarvices css start here */
+
+.sarvices{
+      width: 100%;
+      padding: 40px 0px;
+}
+
+.s-left .sub-text-1{
+      color: #f55767 !important;
+
+}
+
+.s-middle .sub-text-2{
+      color: #2563ff !important;
+}
+
+.s-right .sub-text-3{
+      color: #40975f !important;  
+}
+
+/*sarvices css end here */
+
+/*desing css start here*/
+
+.design{
+      width: 100%;
+      padding: 60px 0px;
+}
+
+.d-right{
+      padding-top: 40px;
+    
+}
+
+.d-right h2{
+      color: #242f51;
+      font-weight: bold;
+      margin-right: 20px
+}
+
+.d-right p{
+      color: #929396;
+      font-size: 14px !important;
+      font-weight: 600;
+      margin-right: 20px;
+      margin-top: 20px;
+
+}
+
+.d-right .u-btn{
+      color: #929396 !important;
+      background: blue !important;
+      padding: 5px 8px;
+      border-radius: 30px !important;
+      margin-top: 20px !important;
+      border: none;
+}
+
+.d-right .u-btn:hover{
+      color: #D54C4C;
+      background: #FB7AFC;
+}
+
+/*desing css end here*/
+
+
+/*choose css start here*/
+
+.choose{
+      width: 100%;
+      padding: 10px 0px;
+}
+
+.sub-title{
+      text-align: center !important;
+      padding: 0px 20px;
+}
+
+.sub-title h2{
+      color: #242f51;
+      font-weight: bold;
+     /* padding: 50px;*/
+}
+
+.sub-title p{
+      color: #929396;
+      font-size: 14px !important;
+      font-weight: 600;
+      
+}
+
+/*choose css end here*/
+
+
+/*support css start here*/ 
+
+.support{
+      width: 100%;
+      padding: 40px 0px;
+}
+
+.c-support{
+      text-align: center;
+      padding: 20px;
+}
+
+.c-support h5{
+      color: #242f51;
+      font-weight: bold;
+      margin-top: 40px;
+}
+
+.c-support p{
+      color: #a7a8aa;
+      font-size: 14px !important;
+      /*padding: 20px;*/
+      font-weight: 600;
+      margin-right: 20px;
+      margin-top: 30px;
+}
+ .support-g{
+      padding: 60px;
+}
+
+/*support css end here*/ 
+
+/*ultimate css start here*/
+
+.ultimate{
+      width: 100%;
+      padding: 30px 0px;
+      position: relative;
+}
+
+
+.s-title h2{
+      color: #242f51;
+      margin-right: 40px;
+
+}
+
+.s-title p{
+      color: #a7a8aa;
+      font-size: 14px !important;
+      font-weight: 600;
+}
+
+.s-up{
+      margin-top: 60px;
+}
+
+.s-down{
+       margin-top: 60px;
+}
+
+.s-up h5{
+      color: #242f51;
+}
+
+.s-up p{
+      color: #a7a8aa;
+      font-size: 14px !important;
+      /*padding: 20px;*/
+      font-weight: 600;
+}
+
+.s-down h5{
+      color: #242f51;
+}
+
+.s-down p{
+      color: #a7a8aa;
+      font-size: 14px !important;
+      /*padding: 20px;*/
+      font-weight: 600;
+}
+
+.ultimate-img{
+     position: absolute;
+     right: 0 !important;
+     top: 50px !important; 
+}
+
+.u-down .btn{
+      padding: 6px 25px;
+      color: #ffffff;
+      border: none;
+      background: blue !important;
+      border-radius: 30px;
+      margin-top: 30px;
+
+}
+
+.u-down.btn:hover{
+      background: #7C83FD !important;
+      color: #CD113B !important;
+}
+
+/*ultimate css end here*/
+
+/*price css start here*/
+
+.price{
+      width: 100%;
+      padding: 90px 0px;
+}
+
+.price-table{
+      padding: 30px;
+      text-align: center;
+}
+.price-controller{
+      border: 1px solid #2b466d;
+      display: inline-block;
+      border-radius: 30px;
+}
+.price-btn{
+      padding: 6px 25px;
+      border: none;
+      background: transparent;
+      border-radius: 30px;
+
+}
+
+.price-controller .active{
+      background: blue;
+      border-radius: 30px;
+      color: #ffffff;
+}
+
+.card{
+     margin-top: 40px;
+     border: none;
+     box-shadow: 6px 8px 10px 6px rgb(0 0 0 /10%);
+     border-radius: 8px;
+}
+
+.card-header{
+      padding: 25px;
+      background: #fbfcfd;
+      border: none;
+}
+
+.card-header h2{
+      color: #242f51;
+      font-size: 50px;
+      font-weight: 600;
+}
+.card-header strong{
+      color: #242f51;
+}
+.card-header span{
+      color: #999ca5;
+      font-size: 18px;
+      font-weight: 400;
+}
+.card-header p{
+      color: #a7a8aa;
+      font-size: 14px !important;
+      font-weight: 400;
+}
+
+.card-body p{
+      color: #a7a8aa;
+      font-size: 14px !important;
+      font-weight: 400;
+}
+
+.p-btn{
+      padding: 6px 25px;
+      color: #ffffff;
+      border: none;
+      background: blue !important;
+      border-radius: 30px;
+      margin-top: 30px;
+}
+
+.o-btn{
+      color: #2500f9;
+      border: none;
+      margin-top: 30px;
+}
+
+/*price css end here*/
+
+/*product css start here*/
+
+.product{
+      width: 100%;
+      padding: 80px 0px;
+      position: relative;
+}
+
+.product-title h2, .q-title h2{
+      color: #242f51;
+      font-size: 35px;
+      font-weight: 600;
+           
+}
+
+.product-title p, .q-title p{
+      color: #a7a8aa;
+      font-size: 14px !important;
+      font-weight: 400;
+}
+
+ .product-1{
+       padding: 20px 0px;
+}
+.product-1 .star{
+      color: #ffcc00;
+}
+
+
+.product-1 h6{
+      color: #242f51;
+      font-size: 20px;
+      font-weight: 600;
+      margin: 20px 0px;
+} 
+.product-1 p{
+      color: #a7a8aa;
+      font-size: 14px !important;
+      font-weight: 400;
+      
+}
+
+.t-user{
+      padding-top: 30px;
+}
+
+.t-user h6{
+      margin: 0px !important;
+      padding-top: 25px
+}
+
+.s-img{
+      position: absolute;
+      left: -40px;
+      top: 100px;
+}
+
+/*product css end here*/
+
+/*question css start here*/
+
+.question{
+      width: 100;
+      padding: 70px 0px;
+}
+
+.q-title{
+      text-align: center;
+}
+
+.q-item{
+      padding: 50px 0px;
+}
+
+.accordion-item {
+    background-color: #f5f7fa !important;
+    border: none;
+    padding: 16px;
+    margin-bottom: 6px;
+}
+
+.accordion-button{
+     color: #242f51 !important;
+     font-weight: 600;
+     background-color: #f5f7fa !important;
+     padding: 0 22px;  
+}
+
+.accordion-button:not(.collapsed){
+      color: #242f51 !important;
+      font-weight: 600;
+      background-color: #f5f7fa !important;
+      box-shadow: none;
+       padding: 18px 22px !important;
+}
+
+.accordion-button::after {
+    background-image: url(../img/plas.png) !important;
+    
+}
+.accordion-button:not(.collapsed)::after {
+    background-image: url(../img/minus.png) !important;
+    
+}
+
+.q-item {
+    padding: 0px 0px !importent;
+}
+
+/*question css end here*/
+
+/*download css start here*/
+
+.download{
+      width: 100%;
+      padding: 50px 0px;
+}
+.d-a-left h2{
+      color: #242f51;
+      font-size: 35px;
+      font-weight: 600;
+}
+
+.d-a-left p{
+      color: #a7a8aa;
+      font-size: 14px !important;
+      font-weight: 400;
+      margin: 30px 0px;
+}
+
+.d-a-img{
+      padding-right: 20px;
+}
+
+
+/*download css end here*/
+
+/*footer css start here*/ 
+
+.footer{
+      width: 100%;
+      padding: 40px 0;
+      background: #082032;
+}
+ .footer-tex{
+     text-align: center;
+ }
+
+.footer-tex .navbar-nav1{
+    text-align: center;  
+    display: flex;
+    list-style: none;
+    padding: 10px;
+    margin-left: 170px;
+}
+
+.nav-item1{
+     
+}
+ .nav-item1 .nav-link1{
+    padding-right: 10px !important;
+    
+   /* padding: none;*/
+    color: #ffffff !important;
+    text-decoration: none !important; 
+}
+
+ .nav-link1:hover{
+      background: none !important;
+ }     
+ .sosail-icon ul{
+      text-align: center;
+      padding: 0;
+ }
+.sosail-icon ul li {
+      list-style: none;
+      display: inline-block;
+      
+}
+.sosail-icon ul li a{
+      color: #273043;
+      padding-left: 10px;
+}
+.fa-slack{
+      color: #ffffff !important;
+}
+ p{
+      color: #273043;
+      margin-top: 0;
+      margin-bottom: none !important;
+
+}
+
+/*footer css end here*/
